@@ -1,5 +1,4 @@
 "use client"
-// components/PokedexGrid.tsx
 import React, { useState, useEffect } from "react";
 import {PokemonCard} from "./PokemonCard";
 
@@ -56,12 +55,14 @@ export const PokedexGrid: React.FC = () => {
         ))}
       </div>
       {loading && <p>Loading...</p>}
+      <div className="flex justify-center items-center">
       <button
         onClick={() => setPage((prev) => prev + 1)}
-        className="px-4 py-2 mt-4 text-white bg-blue-500 rounded hover:bg-blue-600"
+        className="px-4 py-2 mt-4 text-white bg-red-400 rounded hover:bg-red-600"
       >
         Load More
       </button>
+      </div>
     </div>
   );
 };

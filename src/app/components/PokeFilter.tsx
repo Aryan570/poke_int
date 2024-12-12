@@ -1,4 +1,3 @@
-// components/PokemonTypeFilter.tsx
 import React from "react";
 
 interface PokemonTypeFilterProps {
