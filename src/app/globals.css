@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f1f5f9;
   --foreground: #171717;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 .container_pb {
   height: 4px;
-  background-color: #ffffff;
+  background-color: #f1f5f9;
 }
 .barCompleted {
   background-color: lightblue;
