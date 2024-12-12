@@ -25,7 +25,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name, type, sprite
   const [Comp, setComp] = useState(false);
   if (Comp) {
     return (
-      <div onMouseLeave={() => setComp(false)} className={`flex items-center p-4 bg-white shadow-md rounded-lg hover:shadow-lg hover:scale-105 ${mpp2.get(type)}`}>
+      <div onMouseLeave={() => setComp(false)} className={`flex items-center p-4 h-[216px] bg-white shadow-md rounded-lg hover:shadow-lg hover:scale-105 ${mpp2.get(type)}`}>
         <Image src={sprite} alt={name} className="w-24 h-24" width={150} height={150} />
         <div className="ml-2 flex flex-col gap-2">
           <div className="flex justify-end items-center gap-1">
