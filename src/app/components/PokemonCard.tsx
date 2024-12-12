@@ -30,7 +30,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name, type, sprite
         <div className="ml-2 flex flex-col gap-2 w-2/3">
           <div className="flex justify-end items-center gap-1 w-full">
             <div className="text-xs">health</div>
-            <div className="relative h-2 bg-gray-200 rounded w-full">
+            <div className="relative h-2 bg-gray-200 rounded w-2/3">
               <div
                 className="absolute top-0 left-0 h-full bg-emerald-600 rounded"
                 style={{ width: `${values[0]}%` }}
@@ -39,7 +39,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name, type, sprite
           </div>
           <div className="flex justify-end items-center gap-1 w-full">
             <div className="text-xs">stamina</div>
-            <div className="relative h-2 bg-gray-200 rounded w-full">
+            <div className="relative h-2 bg-gray-200 rounded w-2/3">
               <div
                 className="absolute top-0 left-0 h-full bg-emerald-600 rounded"
                 style={{ width: `${values[1]}%` }}
@@ -48,7 +48,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name, type, sprite
           </div>
           <div className="flex justify-end items-center gap-1 w-full">
             <div className="text-xs">defense</div>
-            <div className="relative h-2 bg-gray-200 rounded w-full">
+            <div className="relative h-2 bg-gray-200 rounded w-2/3">
               <div
                 className="absolute top-0 left-0 h-full bg-emerald-600 rounded"
                 style={{ width: `${values[2]}%` }}
@@ -57,7 +57,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name, type, sprite
           </div>
           <div className="flex justify-end items-center gap-1 w-full">
             <div className="text-xs">speed</div>
-            <div className="relative h-2 bg-gray-200 rounded w-full">
+            <div className="relative h-2 bg-gray-200 rounded w-2/3">
               <div
                 className="absolute top-0 left-0 h-full bg-emerald-600 rounded"
                 style={{ width: `${values[3]}%` }}
@@ -66,7 +66,7 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ id, name, type, sprite
           </div>
           <div className="flex justify-end items-center gap-1 w-full" >
             <div className="text-xs">attack</div>
-            <div className="relative h-2 bg-gray-200 rounded w-full">
+            <div className="relative h-2 bg-gray-200 rounded w-2/3">
               <div
                 className="absolute top-0 left-0 h-full bg-emerald-600 rounded w-2/3"
                 style={{ width: `${values[4]}%` }}
